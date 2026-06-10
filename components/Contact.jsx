@@ -52,14 +52,14 @@ export default function Contact() {
             variants={itemVariants}
             className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-secondary mb-6 md:mb-8 relative"
           >
-            [ Let's Build Something Great ]
+            [ Let&apos;s Build Something Great ]
           </motion.p>
 
           <motion.h2 
             variants={itemVariants}
             className="font-display text-4xl sm:text-5xl md:text-[9rem] uppercase leading-[0.95] md:leading-[0.9] relative break-words"
           >
-            Let's Build
+            Let&apos;s Build
             <br />
             <span className="font-serif-display italic font-normal lowercase text-secondary">
               together.
@@ -70,7 +70,7 @@ export default function Contact() {
             <motion.div variants={itemVariants} className="flex flex-col items-start">
               <p className="text-primary-foreground/70 text-sm md:text-base max-w-md leading-relaxed">
                 Have an idea, startup, portfolio, or website project in mind?
-                Let's discuss how we can turn it into reality.
+                Let&apos;s discuss how we can turn it into reality.
               </p>
 
               <a

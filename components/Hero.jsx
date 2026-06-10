@@ -153,7 +153,7 @@ export default function Hero() {
                 Undiscovered Studio is a creative digital agency built by
                 self-taught developers and designers, crafting modern websites,
                 apps, and digital experiences that help brands grow — and prove
-                that talent doesn't need permission.
+                that talent doesn&apos;t need permission.
               </p>
 
               <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 md:justify-end">
@@ -174,7 +174,7 @@ export default function Hero() {
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  Let's Work
+                  Let&apos;s Work
                   <motion.div
                     animate={{ y: [0, 4, 0] }}
                     transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
