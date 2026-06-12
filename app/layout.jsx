@@ -2,6 +2,10 @@ import "./globals.css";
 
 export const metadata = {
   title: "Undiscovered Studio | Custom Websites for Modern Businesses",
+  verification: {
+    google: "y0VI15NGKHCr-TTHpdZQQtvG6z71u_cu2GgYTnCTtG4"
+  }
+  ,
   description:
     "Undiscovered Studio builds fast, responsive, and SEO-friendly websites for startups, agencies, and growing businesses. We create modern digital experiences that help brands stand out and scale online.",
   keywords: [
@@ -19,7 +23,7 @@ export const metadata = {
   openGraph: {
     title: "Undiscovered Studio | Custom Websites for Modern Businesses",
     description:
-      "Premium web design and development services for startups, agencies, and businesses looking to grow online.",
+    "Premium web design and development services for startups, agencies, and businesses looking to grow online.",
     type: "website",
   },
 };
