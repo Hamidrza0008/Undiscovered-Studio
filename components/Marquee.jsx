@@ -21,7 +21,7 @@ export default function Marquee() {
         <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Helping ideas become products</p>
         <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground hidden md:block">2026-</p>
       </div>
-      <div className="relative">
+      <div className="relative text-[#9ac1ab]">
         <div className="flex gap-14 whitespace-nowrap" style={{ animation: "marquee 20s linear infinite" }}>
           {[...clients, ...clients].map((c, i) => (
             <span key={i} className="text-2xl md:text-3xl font-display uppercase text-foreground/70 hover:text-foreground transition">

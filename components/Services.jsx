@@ -64,7 +64,7 @@ export default function Services() {
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">[ Capabilities ]</p>
             <h2 className="font-display text-6xl md:text-8xl uppercase leading-[0.9]">
               Things<br />
-              <span className="font-serif-display italic font-normal lowercase">we’re good </span>
+              <span className="font-serif-display italic font-normal lowercase text-[#9ac1ab]">we’re good </span>
               at
             </h2>
           </div>

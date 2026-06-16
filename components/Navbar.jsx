@@ -27,8 +27,8 @@ export default function Navbar() {
       className="fixed top-0 inset-x-0 z-50 transition-all duration-300"
       style={{
         background: scrolled
-          ?  "transparent"  // mint green with blur when scrolled
-          : "rgba(200, 232, 216, 0.85)",
+          ?  "rgb(151,191,168)"  // mint green with blur when scrolled
+          : "transparent",
         backdropFilter: scrolled ? "blur(12px)" : "none",
         borderBottom: scrolled ? "1px solid rgba(150, 200, 175, 0.3)" : "none",
       }}
