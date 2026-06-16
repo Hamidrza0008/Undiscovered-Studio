@@ -112,7 +112,7 @@ export default function Hero() {
             >
               We Turn
               <br />
-              <span className="block my-1 sm:my-0 text-white">Undiscovered</span>
+              <span className="block my-1 sm:my-0 text-[#9ac1ab]">Undiscovered</span>
               <span className="text-white">Ideas</span>
               <br />
               <span className=" text-white font-serif-display lowercase italic font-normal  block mt-4 sm:mt-2 tracking-normal">
