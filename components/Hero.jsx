@@ -3,7 +3,9 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowDown, Sparkles } from "lucide-react";
-import bg from "../public/BG3.png";
+
+// ध्यान दें: हमने यहाँ से mp4 का import हटा दिया है ताकि Webpack एरर न दे।
+// वीडियो फ़ाइल सीधे आपके `public/BGV.mp4` पाथ से लोड होगी।
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -64,7 +66,6 @@ export default function Hero() {
               <span className="font-mono text-[10px] md:text-xs opacity-60">©2026</span>
             </div>
             <div className="overflow-hidden my-auto">
-              {/* text-3xl to text-4xl for mobile */}
               <motion.h2
                 initial={{ y: 60 }}
                 animate={{ y: 0 }}
@@ -87,14 +88,17 @@ export default function Hero() {
       {/* HERO SECTION */}
       <section className="relative min-h-screen w-full flex items-center justify-start overflow-hidden px-6 sm:px-12 md:px-28 py-24 md:py-32">
         
-        {/* बैकग्राउंड इमेज कंटेनर (z-0) */}
+        {/* बैकग्राउंड वीडियो कंटेनर (z-0) */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src={bg.src || bg} 
-            alt="Background"
+          <video
+            src="/BGV.mp4" 
+            autoPlay
+            loop
+            muted
+            playsInline
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/10 mix-blend-multiply" />
+          <div className="absolute inset-0 bg-black/30 mix-blend-multiply" />
         </div>
 
         {/* मेन कंटेंट कंटेनर - लेफ्ट अलाइन (z-10) */}
@@ -105,22 +109,21 @@ export default function Hero() {
             animate={isLoading ? "hidden" : "show"}
             className="w-full flex flex-col items-start"
           >
-            {/* text-[12vw] to text-[14vw] for bigger heading, leading-[0.95] to leading-[0.9] for tighter look */}
             <motion.h1
               variants={fadeUp}
-              className=" text-white font-display text-[14vw] sm:text-[9vw] md:text-[6.5vw] leading-[0.9] sm:leading-[0.9] md:leading-[1.05] lg:leading-[1.1] uppercase tracking-wide max-w-xs sm:max-w-3xl md:max-w-4xl break-words  text-left"
+              className="text-white font-display text-[14vw] sm:text-[9vw] md:text-[6.5vw] leading-[0.9] sm:leading-[0.9] md:leading-[1.05] lg:leading-[1.1] uppercase tracking-wide max-w-xs sm:max-w-3xl md:max-w-4xl break-words text-left"
             >
               We Turn
               <br />
               <span className="block my-1 sm:my-0 text-[#9ac1ab]">Undiscovered</span>
               <span className="text-white">Ideas</span>
               <br />
-              <span className=" text-white font-serif-display lowercase italic font-normal  block mt-4 sm:mt-2 tracking-normal">
+              <span className="text-white font-serif-display lowercase italic font-normal block mt-4 sm:mt-2 tracking-normal">
                 Into Reality
               </span>
             </motion.h1>
 
-            {/* ऐक्शन बटन्स - px-8 py-4 to px-6 py-3 & text-sm to text-xs for smaller mobile buttons */}
+            {/* ऐक्शन बटन्स */}
             <motion.div
               variants={fadeUp}
               className="transparent mt-10 flex flex-col sm:flex-row items-center justify-start gap-4 w-full max-w-[280px] sm:max-w-none"
