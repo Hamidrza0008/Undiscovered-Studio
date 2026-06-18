@@ -57,7 +57,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="relative py-20 md:py-32 overflow-hidden">
+    <section id="services" className="relative py-20 md:py-2 overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-5 md:px-10">
         <div className="grid md:grid-cols-12 gap-8 mb-12 md:mb-20">
           <div className="md:col-span-5">
