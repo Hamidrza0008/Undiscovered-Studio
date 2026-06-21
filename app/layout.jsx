@@ -4,23 +4,59 @@ export const metadata = {
 
   metadataBase: new URL("https://www.undiscoveredstudio.in"),
 
-  title: "Undiscovered Studio | Custom Websites for Modern Businesses",
+  title:
+    "Undiscovered Studio | Web Development Agency | MERN & Next.js Websites",
 
   description:
-    "Undiscovered Studio builds fast, responsive, and SEO-friendly websites for startups, agencies, and growing businesses. We create modern digital experiences that help brands stand out and scale online.",
+    "Undiscovered Studio is a modern web development agency creating fast, responsive, and SEO-friendly websites for startups, businesses, and brands. We specialize in React.js, Next.js, custom websites, and digital experiences that help businesses grow online.",
+
 
   keywords: [
+
+    // Brand
     "Undiscovered Studio",
-    "web design agency",
+    "Undiscovered Studio web development",
+    "Undiscovered Studio agency",
+
+    // Main Services
     "web development agency",
-    "next.js development",
-    "react development",
-    "website design",
+    "website development company",
     "custom website development",
-    "seo friendly websites",
+    "professional website design",
+    "modern website development",
+    "responsive website development",
+
+    // Technology Keywords
+    "Next.js development agency",
+    "React.js development agency",
+    "React developer",
+    "Next.js developer",
+    "frontend development agency",
+    "full stack web development",
+
+    // Business Intent Keywords
+    "website for startups",
+    "startup website development",
+    "business website development",
     "ecommerce website development",
-    "digital agency",
+    "landing page development",
+    "portfolio website development",
+
+    // SEO Keywords
+    "SEO friendly website development",
+    "fast website development",
+    "high performance websites",
+    "modern digital solutions",
+
+    // Location Based
+    "web development agency India",
+    "website development company India",
+    "frontend developer India",
+    "React developer India",
+    "Next.js developer India",
+
   ],
+
 
   verification: {
     google: "y0VI15NGKHCr-TTHpdZQQtvG6z71u_cu2GgYTnCTtG4",
@@ -43,30 +79,38 @@ export const metadata = {
 
 
   openGraph: {
-    title: "Undiscovered Studio | Custom Websites for Modern Businesses",
+
+    title:
+      "Undiscovered Studio | React & Next.js Web Development Agency",
 
     description:
-      "Premium web design and development services for startups, agencies, and businesses looking to grow online.",
+      "We design and develop premium websites, SaaS platforms, ecommerce stores, and digital experiences using modern technologies.",
 
-    url: "https://www.undiscoveredstudio.in",
+    url:
+      "https://www.undiscoveredstudio.in",
 
-    siteName: "Undiscovered Studio",
+    siteName:
+      "Undiscovered Studio",
 
-    type: "website",
+    type:
+      "website",
 
-    locale: "en_US",
+    locale:
+      "en_US",
   },
 
 
   twitter: {
     card: "summary_large_image",
-    title: "Undiscovered Studio | Custom Websites for Modern Businesses",
+
+    title:
+      "Undiscovered Studio | Web Development Agency",
+
     description:
-      "Premium web design and development services for startups, agencies, and businesses looking to grow online.",
+      "MERN , Modern React, Next.js and custom website development services for startups and businesses.",
   },
 
 };
-
 
 export default function RootLayout({ children }) {
 
